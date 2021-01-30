@@ -1,0 +1,29 @@
+.main{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 65px;
+}
+
+.main-title {
+  margin-top: 95px;
+  color: #18191f;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  margin-bottom: 32px;
+}
+
+.main-button {
+  background: #8c30f5;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 16px 40px;
+  text-decoration: none;
+  display: block;
+  max-width: 116px;
+  text-align: center;
+}

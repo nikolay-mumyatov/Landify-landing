@@ -1,0 +1,12 @@
+body{
+  font-family: 'Manrope', sans-serif;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@import "header.scss"; // header
+@import "main-block.scss"; // block main
+@import "company.scss"; // block company
