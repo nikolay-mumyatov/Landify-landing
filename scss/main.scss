@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
   font-family: 'Manrope', sans-serif;
 }
@@ -7,7 +11,14 @@ body{
   margin: 0 auto;
 }
 
+.title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+}
+
 @import "header.scss"; // header
 @import "main-block.scss"; // block main
 @import "company.scss"; // block company
 @import "features.scss"; // block features
+@import "stories.scss";
