@@ -10,6 +10,7 @@ body {
 .wrapper {
   background: url(/Images/Background-header.png) no-repeat top;
   background-size: contain;
+  max-height: 1060px;
 }
 
 .header-row {
@@ -99,5 +100,74 @@ body {
 .company-img {
   margin-left: 32px;
   margin-right: 32px;
+}
+
+.company .divider {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(192, 204, 218, 0.1)), color-stop(50.38%, rgba(192, 204, 218, 0.6)), to(rgba(192, 204, 218, 0.1)));
+  background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+  border: none;
+}
+
+.features-block {
+  padding-top: 24px;
+  padding-bottom: 64px;
+}
+
+.features-block .features {
+  text-align: center;
+  color: #18191f;
+}
+
+.features-block .features-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.features-block .features .description-title {
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.features-block .features-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.features-block .features-card .features-item {
+  width: 29%;
+  color: #18191f;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 65px;
+  min-width: 380px;
+}
+
+.features-block .features-card .features-item .card-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.features-block .features-card .features-item .card-description {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
 /*# sourceMappingURL=main.css.map */

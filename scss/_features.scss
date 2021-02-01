@@ -1,0 +1,46 @@
+.features-block {
+  padding-top: 24px;
+  padding-bottom: 64px;
+  .features {
+    text-align: center;
+    color: #18191f;
+    &-title {
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 64px;
+    }
+    .description-title {
+      font-size: 18px;
+      line-height: 1.8;
+      font-weight: 400;
+    }
+  }
+  .features-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    .features-item {
+      width: 29%;
+      color: #18191f;
+      margin-right: 30px;
+      margin-left: 30px;
+      margin-top: 65px;
+      min-width: 380px;
+
+      .card-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+      }
+      .card-description {
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+}
