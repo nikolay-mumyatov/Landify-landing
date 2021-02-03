@@ -227,6 +227,10 @@ body {
 
 .title-text {
   margin: 0;
+  color: #18191f;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
 }
 
 .stories-title {
@@ -236,7 +240,7 @@ body {
 }
 
 .stories-title .title {
-  margin-bottom: 10px;
+  margin-bottom: 0;
   margin-top: 0;
 }
 
