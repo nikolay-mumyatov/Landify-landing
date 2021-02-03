@@ -1,150 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com"> 
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet"> <!-- Install fonts -->
-  <link rel="stylesheet" href="scss/normalize.css"> <!-- Reset settings CSS -->
-  <link rel="stylesheet" href="scss/main.css"> <!-- Install my slyles CSS -->
-  <title>Landify</title>
-</head>
-<body>
-  <div class="wrapper">
-    <header class="header">
-      <div class="container">
-        <div class="header-row">
-          <nav class="nav">
-            <a href="#" class="logo"><img src="Images/Dark.svg" alt=""></a>
-            <ul class="menu">
-              <li class="menu-link"><a href="#">About</a></li>
-              <li class="menu-link"><a href="#">Products</a></li>
-              <li class="menu-link"><a href="#">Pricing</a></li>
-              <li class="menu-link"><a href="#">Blog</a></li>
-              <li class="menu-link"><a href="#">Jobs</a></li>
-              <li class="menu-link"><a href="#">More</a></li>
-            </ul>
-          </nav>
-          <div class="header-button">
-            <a href="#" class="store-link"><img src="Images/Google Play Badge.svg" alt="icon: link to Google Play"></a>
-            <a href="#" class="store-link"><img src="Images/App Store Badge.svg" alt="icon: link to App Store"></a>
-          </div>
-        </div>
-      </div>
-      <!-- /.container -->
-    </header> <!-- /.header -->
-    <main>
-      <div class="container">
-        <div class="main">
-          <div class="main-info">
-            <h1 class="main-title">Organise projects. <br> Get more done.</h1>
-            <a href="#" class="main-button">Get Started</a>
-          </div>
-          <div class="main-image">
-            <img src="/Images/Phone Mockup.png" alt="image: Phone App" class="main-image">
-          </div>
-        </div>
-      </div>
-      <!-- /.container -->
-    </main> <!-- /.main -->
-    <section class="company">
-      <div class="container">
-        <hr class="divider">
-        <span class="company-img"><img src="/Images/Company/Airbnb Logo.svg" alt="image: Image Airbnb Logo"></span>
-        <span class="company-img"><img src="/Images/Company/Hubspot Logo.svg" alt="image: Image Hubspot Logo"></span>
-        <span class="company-img"><img src="/Images/Company/Google Logo.svg" alt="image: Image Google Logo"></span>
-        <span class="company-img"><img src="/Images/Company/Microsoft Logo.svg" alt="image: Image Microsoft Logo"></span>
-        <span class="company-img"><img src="/Images/Company/Walmart Logo.svg" alt="image: Image Walmart Logo"></span>
-        <span class="company-img"><img src="/Images/Company/FedEx Logo.svg" alt="image: Image FedEx Logo"></span>
-        <hr class="divider">
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.company -->
-    <section class="features-block">
-      <div class="container">
-        <div class="features">
-          <h2 class="title">Tailor-made features</h2>
-          <p class="description-title">Lorem ipsum is common placeholder text used to demonstrate <br> the graphic elements of a document or visual presentation.</p>
-        </div>
-        <div class="features-card">
-          <div class="features-item">
-            <img src="Images/Features-card/01.svg" alt="icon: Robust workflow icon" class="features-img">
-            <h3 class="card-title">Robust workflow</h3>
-            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
-          </div>
-          <div class="features-item">
-            <img src="Images/Features-card/02.svg" alt="icon: Flexibility icon" class="features-img">
-            <h3 class="card-title">Flexibility</h3>
-            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
-          </div>
-          <div class="features-item">
-            <img src="Images/Features-card/03.svg" alt="icon: User friendly icon" class="features-img">
-            <h3 class="card-title">User friendly</h3>
-            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
-          </div>
-          <div class="features-item">
-            <img src="Images/Features-card/04.svg" alt="icon: Multiple layouts icon" class="features-img">
-            <h3 class="card-title">Multiple layouts</h3>
-            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
-          </div>
-          <div class="features-item">
-            <img src="Images/Features-card/05.svg" alt="icon: Better components icon" class="features-img">
-            <h3 class="card-title">Better components</h3>
-            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
-          </div>
-          <div class="features-item">
-            <img src="Images/Features-card/06.svg" alt="icon: Well organised icon" class="features-img">
-            <h3 class="card-title">Well organised</h3>
-            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
-          </div>
-        </div>
-        <!-- /.features-card -->
-      </div>
-    </section>
-    <!-- /.features -->
-    <section class="stories">
-      <div class="container">
-        <img src="Images/Stories/marks.svg" alt="image: quotation marks" class="stories-img">
-        <div class="stories-block">
-          <div class="stories-title">
-            <div class="title">Real Stories from Real Customers</div>
-            <p class="stories-description">Get inspired by these stories.</p>
-          </div>
-          <div class="stories-item item-1">
-            <img src="Images/Stories/Airbnb Logo.svg" alt="icon: Airbnb" class="stories-logo">
-            <div class="stories-description">
-              <img src="Images/Stories/marks-mini.svg" alt="icon: Marks mini">
-              <p class="stories-text">I used landify and created a landing page for my startup within a week. The Landify UI Kit is simple and highly intuitive, so anyone can use it.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Install fonts -->
+    <link rel="stylesheet" href="scss/bootstrap-grid.min.css" />
+    <!-- Install Bootstrap grid-->
+    <link rel="stylesheet" href="scss/normalize.css" />
+    <!-- Reset settings CSS -->
+    <link rel="stylesheet" href="scss/main.css" />
+    <!-- Install my slyles CSS -->
+    <title>Landify</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-row">
+            <nav class="nav">
+              <a href="#" class="logo"><img src="Images/Dark.svg" alt="" /></a>
+              <ul class="menu">
+                <li class="menu-link"><a href="#">About</a></li>
+                <li class="menu-link"><a href="#">Products</a></li>
+                <li class="menu-link"><a href="#">Pricing</a></li>
+                <li class="menu-link"><a href="#">Blog</a></li>
+                <li class="menu-link"><a href="#">Jobs</a></li>
+                <li class="menu-link"><a href="#">More</a></li>
+              </ul>
+            </nav>
+            <div class="header-button">
+              <a href="#" class="store-link"
+                ><img
+                  src="Images/Google Play Badge.svg"
+                  alt="icon: link to Google Play"
+              /></a>
+              <a href="#" class="store-link"
+                ><img
+                  src="Images/App Store Badge.svg"
+                  alt="icon: link to App Store"
+              /></a>
             </div>
-            <h3 class="stories-name">Jane Cooper</h3>
-            <span class="stories-prof">CEO, Airbnb</span>
           </div>
-          <!-- /.stories-item -->
-          <div class="stories-item item-2">
-            <img src="Images/Stories/Hubspot Logo.svg" alt="icon: Hubspot" class="stories-logo">
-            <div class="stories-description">
-              <img src="Images/Stories/marks-mini.svg" alt="icon: Marks mini">
-              <p class="stories-text">To quickly start my startup landing page design, I was looking for a landing page UI Kit. Landify is one of the best landing page UI kit I have come across. It’s so flexible, well organised and easily editable.</p>
-            </div>
-            <h3 class="stories-name">Floyd Miles</h3>
-            <span class="stories-prof">Vice President, GoPro</span>
-          </div>
-          <!-- /.stories-item -->
-          <div class="stories-item item-3">
-            <img src="Images/Stories/BookMyShow Logo.svg" alt="icon: BookMyShow" class="stories-logo">
-            <div class="stories-description">
-              <img src="Images/Stories/marks-mini.svg" alt="icon: Marks mini">
-              <p class="stories-text">Landify saved our time in designing my company page.</p>
-            </div>
-            <h3 class="stories-name">Kristin Watson</h3>
-            <span class="stories-prof">Co-Founder, BookMyShow</span>
-          </div>
-          <!-- /.stories-item -->
         </div>
-      </div>
-    </section>
-    <!-- /.stories -->
-  </div>
-</body>
+        <!-- /.container -->
+      </header>
+      <!-- /.header -->
+      <main>
+        <div class="container">
+          <div class="main">
+            <div class="main-info">
+              <h1 class="main-title">
+                Organise projects. <br />
+                Get more done.
+              </h1>
+              <a href="#" class="main-button">Get Started</a>
+            </div>
+            <div class="main-image">
+              <img
+                src="/Images/Phone Mockup.png"
+                alt="image: Phone App"
+                class="main-image"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- /.container -->
+      </main>
+      <!-- /.main -->
+      <section class="company">
+        <div class="container">
+          <hr class="divider" />
+          <span class="company-img"
+            ><img
+              src="/Images/Company/Airbnb Logo.svg"
+              alt="image: Image Airbnb Logo"
+          /></span>
+          <span class="company-img"
+            ><img
+              src="/Images/Company/Hubspot Logo.svg"
+              alt="image: Image Hubspot Logo"
+          /></span>
+          <span class="company-img"
+            ><img
+              src="/Images/Company/Google Logo.svg"
+              alt="image: Image Google Logo"
+          /></span>
+          <span class="company-img"
+            ><img
+              src="/Images/Company/Microsoft Logo.svg"
+              alt="image: Image Microsoft Logo"
+          /></span>
+          <span class="company-img"
+            ><img
+              src="/Images/Company/Walmart Logo.svg"
+              alt="image: Image Walmart Logo"
+          /></span>
+          <span class="company-img"
+            ><img
+              src="/Images/Company/FedEx Logo.svg"
+              alt="image: Image FedEx Logo"
+          /></span>
+          <hr class="divider" />
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.company -->
+      <section class="features-block">
+        <div class="container">
+          <div class="features">
+            <h2 class="title">Tailor-made features</h2>
+            <p class="description-title">
+              Lorem ipsum is common placeholder text used to demonstrate <br />
+              the graphic elements of a document or visual presentation.
+            </p>
+          </div>
+          <div class="features-card">
+            <div class="features-item">
+              <img
+                src="Images/Features-card/01.svg"
+                alt="icon: Robust workflow icon"
+                class="features-img"
+              />
+              <h3 class="card-title">Robust workflow</h3>
+              <p class="card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                erat nibh tristique ipsum.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="Images/Features-card/02.svg"
+                alt="icon: Flexibility icon"
+                class="features-img"
+              />
+              <h3 class="card-title">Flexibility</h3>
+              <p class="card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                erat nibh tristique ipsum.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="Images/Features-card/03.svg"
+                alt="icon: User friendly icon"
+                class="features-img"
+              />
+              <h3 class="card-title">User friendly</h3>
+              <p class="card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                erat nibh tristique ipsum.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="Images/Features-card/04.svg"
+                alt="icon: Multiple layouts icon"
+                class="features-img"
+              />
+              <h3 class="card-title">Multiple layouts</h3>
+              <p class="card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                erat nibh tristique ipsum.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="Images/Features-card/05.svg"
+                alt="icon: Better components icon"
+                class="features-img"
+              />
+              <h3 class="card-title">Better components</h3>
+              <p class="card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                erat nibh tristique ipsum.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="Images/Features-card/06.svg"
+                alt="icon: Well organised icon"
+                class="features-img"
+              />
+              <h3 class="card-title">Well organised</h3>
+              <p class="card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                erat nibh tristique ipsum.
+              </p>
+            </div>
+          </div>
+          <!-- /.features-card -->
+        </div>
+      </section>
+      <!-- /.features -->
+      <section class="stories">
+        <div class="container">
+          <img
+            src="Images/Stories/marks.svg"
+            alt="image: quotation marks"
+            class="stories-img"
+          />
+          <div class="row d-flex justify-content-center">
+            <div class="col-5">
+              <div class="stories-title">
+                <div class="title">Real Stories from <br> Real Customers</div>
+                <p class="stories-description">
+                  Get inspired by these stories.
+                </p>
+              </div>
+              <!-- /.stories-title -->
+            </div>
+            <div class="col-6">
+              <div class="stories-item">
+                <img
+                  src="Images/Stories/Airbnb Logo.svg"
+                  alt="icon: Airbnb"
+                  class="stories-logo"
+                />
+                <div class="stories-description">
+                  <img
+                    src="Images/Stories/marks-mini.svg"
+                    alt="icon: Marks mini"
+                  />
+                  <p class="stories-text">
+                    I used landify and created a landing page for my startup
+                    within a week. The Landify UI Kit is simple and highly
+                    intuitive, so anyone can use it.
+                  </p>
+                </div>
+                <h3 class="stories-name">Jane Cooper</h3>
+                <span class="stories-prof">CEO, Airbnb</span>
+              </div>
+              <!-- /.stories-item -->
+            </div>
+          </div>
+          <div class="row mt-4 d-flex justify-content-center">
+            <div class="col-4">
+              <div class="stories-item item-2">
+                <img
+                  src="Images/Stories/Hubspot Logo.svg"
+                  alt="icon: Hubspot"
+                  class="stories-logo"
+                />
+                <div class="stories-description">
+                  <img
+                    src="Images/Stories/marks-mini.svg"
+                    alt="icon: Marks mini"
+                  />
+                  <p class="stories-text">
+                    To quickly start my startup landing page design, I was
+                    looking for a landing page UI Kit. Landify is one of the
+                    best landing page UI kit I have come across. It’s so
+                    flexible, well organised and easily editable.
+                  </p>
+                </div>
+                <h3 class="stories-name">Floyd Miles</h3>
+                <span class="stories-prof">Vice President, GoPro</span>
+              </div>
+              <!-- /.stories-item -->
+            </div>
+            <div class="col-4">
+              <div class="stories-item item-3">
+                <img
+                  src="Images/Stories/BookMyShow Logo.svg"
+                  alt="icon: BookMyShow"
+                  class="stories-logo"
+                />
+                <div class="stories-description">
+                  <img
+                    src="Images/Stories/marks-mini.svg"
+                    alt="icon: Marks mini"
+                  />
+                  <p class="stories-text">
+                    Landify saved our time in designing my company page.
+                  </p>
+                </div>
+                <h3 class="stories-name">Kristin Watson</h3>
+                <span class="stories-prof">Co-Founder, BookMyShow</span>
+              </div>
+              <!-- /.stories-item -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.stories -->
+    </div>
+  </body>
 </html>
