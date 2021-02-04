@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   color: #18191F;
+  margin: 0;
 }
 
 body{
@@ -13,13 +14,15 @@ body{
 }
 
 .title {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 48px;
-  line-height: 64px;
+  line-height: 60px;
 }
 
 @import "header.scss"; // header
 @import "main-block.scss"; // block main
 @import "company.scss"; // block company
 @import "features.scss"; // block features
-@import "stories.scss";
+@import "stories.scss"; // block stories
+@import "counter.scss"; // block counter
+@import "headline.scss"; // block headline

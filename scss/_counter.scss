@@ -1,0 +1,40 @@
+.counter {
+  padding-top: 104px;
+  padding-bottom: 104px;
+}
+.counter-block {
+  display: flex;
+}
+.counter-item {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.counter-description {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+.counter-card {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 255px;
+  min-height: 66px;
+  margin: 15px;
+}
+.counter-icon {
+  margin-right: 16px;
+}
+.counter-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.counter-number {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 40px;
+}
