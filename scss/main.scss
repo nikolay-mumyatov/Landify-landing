@@ -19,6 +19,13 @@ body{
   line-height: 60px;
 }
 
+
+.button {
+  .store-link:not(:last-child) {
+    margin-right: 12px;
+  }
+}
+
 @import "header.scss"; // header
 @import "main-block.scss"; // block main
 @import "company.scss"; // block company
@@ -26,3 +33,6 @@ body{
 @import "stories.scss"; // block stories
 @import "counter.scss"; // block counter
 @import "headline.scss"; // block headline
+@import "trends.scss"; // block trends
+@import "download-app.scss"; // block download-app
+@import "footer.scss"; // block footer

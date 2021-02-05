@@ -1,6 +1,11 @@
 .headline {
   padding-bottom: 104px;
 }
+.headline-description .title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 54px;
+}
 .headline-block {
   display: flex;
   flex-wrap: wrap;
@@ -34,7 +39,7 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
-  &::after{
+  &::after {
     content: "";
     display: inline-block;
     background-image: url(/Images/Headline/Vector.svg);

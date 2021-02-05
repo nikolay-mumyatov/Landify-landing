@@ -1,5 +1,3 @@
-// Header
-
 .wrapper {
   background: url(/Images/Background-header.png) no-repeat top;
   background-size: contain;
@@ -28,11 +26,6 @@
         font-weight: 600;
         margin-right: 32px;
       }
-    }
-  }
-  .header-button {
-    .store-link:not(:last-child) {
-      margin-right: 12px;
     }
   }
 }
