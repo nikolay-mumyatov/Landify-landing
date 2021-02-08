@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
-  color: #18191F;
+  color: #18191f;
   margin: 0;
 }
-body{
-  font-family: 'Manrope', sans-serif;
+body {
+  font-family: "Manrope", sans-serif;
 }
-.container{
+.container {
   max-width: 1320px;
   margin: 0 auto;
 }
@@ -31,3 +31,12 @@ body{
 @import "trends.scss"; // block trends
 @import "download-app.scss"; // block download-app
 @import "footer.scss"; // block footer
+
+// Media
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 36px;
+    line-height: 50px;
+  }
+}

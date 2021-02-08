@@ -5,7 +5,7 @@
     text-align: center;
     color: #18191f;
     margin-top: 40px;
-    .description-title {
+    .features-description {
       font-size: 18px;
       line-height: 1.8;
       font-weight: 400;
@@ -49,6 +49,21 @@
 }
 
 @media (max-width: 992px) {
+  .features-block {
+    margin-right: 20px;
+    margin-left: 20px;
+    .features {
+      .features-description {
+        line-height: 22px;
+        font-size: 16px;
+      }
+    }
+    .features-card {
+      .features-item {
+        min-width: 300px;
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
