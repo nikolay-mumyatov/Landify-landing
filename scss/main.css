@@ -559,6 +559,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .counter-item {
@@ -601,12 +603,34 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  text-align: start;
 }
 
 .counter-number {
   font-weight: 800;
   font-size: 28px;
   line-height: 40px;
+  text-align: start;
+}
+
+@media (max-width: 992px) {
+  .counter-block {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .counter-item {
+    text-align: center;
+    width: 100%;
+  }
+  .counter-title {
+    margin-bottom: 50px;
+  }
+  .counter-card {
+    text-align: center;
+  }
 }
 
 .headline {
