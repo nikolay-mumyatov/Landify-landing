@@ -1,6 +1,7 @@
 .company {
   display: flex;
   text-align: center;
+  margin-top: 50px;
   &-img {
     margin-left: 32px;
     margin-right: 32px;
@@ -17,4 +18,34 @@
     );
     border: none;
   }
+}
+
+// Media
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+  .company-block {
+    .divider{
+      width: 100%;
+    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .company-img {
+      display: block;
+      margin-top: 20px;
+      img {
+        max-height: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 575px) {
 }

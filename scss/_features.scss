@@ -19,7 +19,7 @@
     flex-wrap: wrap;
     margin-top: 25px;
     .features-item {
-      width: 29%;
+      width: 27%;
       color: #18191f;
       margin-right: 30px;
       margin-left: 30px;
@@ -30,6 +30,8 @@
         font-weight: 600;
         font-size: 24px;
         line-height: 32px;
+        margin-top: 25px;
+        margin-bottom: 10px;
       }
       .card-description {
         text-align: center;
@@ -39,4 +41,18 @@
       }
     }
   }
+}
+
+// Media
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 575px) {
 }

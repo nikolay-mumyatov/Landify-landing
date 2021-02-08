@@ -3,23 +3,18 @@
   color: #18191F;
   margin: 0;
 }
-
 body{
   font-family: 'Manrope', sans-serif;
 }
-
 .container{
-  max-width: 1440px;
+  max-width: 1320px;
   margin: 0 auto;
 }
-
 .title {
   font-weight: 600;
   font-size: 48px;
   line-height: 60px;
 }
-
-
 .button {
   .store-link:not(:last-child) {
     margin-right: 12px;

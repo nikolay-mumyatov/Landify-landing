@@ -2,7 +2,7 @@
   background: url(/Images/Background-header.png) no-repeat top;
   background-size: contain;
   width: 100%;
-  height: 1000px;
+  max-height: 1000px;
 }
 
 .menu-btn {
@@ -72,6 +72,8 @@
   }
 }
 
+// Media
+
 @media (max-width: 1400px) {
   .header-row {
     margin-right: 20px;
@@ -88,13 +90,15 @@
     width: 100%;
     padding: 25px;
     background-color: rgb(237, 231, 255);
-
-    // background-color: rgb(200, 244, 252);
     transform: translateY(-200%);
     opacity: 0;
     transition: 0.2s;
     .menu-link {
       display: block;
+    }
+    .wrapper {
+      background: url(/Images/Background-header.png) no-repeat top;
+      background-size: cover;
     }
   }
 
@@ -102,6 +106,7 @@
     transform: translateY(30px);
     transition: 0.5s;
     opacity: 1;
+    z-index: 8;
   }
 
   .menu-btn {
