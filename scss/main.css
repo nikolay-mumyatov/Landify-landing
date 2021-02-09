@@ -929,6 +929,45 @@ body {
   right: 0;
 }
 
+@media (max-width: 1200px) {
+  .download-block {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .download-img:nth-of-type(2) {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .download-item:nth-of-type(1) {
+    width: 100%;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .download-text {
+    text-align: center;
+    min-width: 100%;
+  }
+  .download-item:nth-of-type(2) {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .download-text {
+    font-size: 16px;
+  }
+}
+
 .footer {
   background: #0b0d17;
   padding-bottom: 56px;
