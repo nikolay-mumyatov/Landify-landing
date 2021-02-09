@@ -60,11 +60,15 @@
   top: 104px;
   opacity: 0.4;
 }
+.stories-logo{
+  margin-bottom: 32px;
+}
 .stories-text {
   margin-left: 32px;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
+  margin-bottom: 32px;
 }
 .stories-name {
   width: 100%;
@@ -84,13 +88,52 @@
 // Media
 
 @media (max-width: 1200px) {
+  .stories-block {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 @media (max-width: 992px) {
+  .stories-block {
+    display: flex;
+    flex-wrap: wrap;
+    .stories-item {
+      width: 70%;
+    }
+  }
+  .stories-title {
+    margin-bottom: 40px;
+  }
+  .stories-col {
+    display: flex;
+    align-items: center;
+  }
+  .item__hubspot {
+    position: relative;
+    bottom: 0;
+  }
+  .item__airbnb {
+    margin-top: 15px;
+  }
 }
 
 @media (max-width: 768px) {
+  .stories-block {
+    .stories-item {
+      width: 80%;
+    }
+  }
+  .stories-text{
+    font-size: 16px;
+    line-height: 28px;
+  }
 }
 
 @media (max-width: 575px) {
+  .stories-block {
+    .stories-item {
+      width: 100%;
+    }
+  }
 }
